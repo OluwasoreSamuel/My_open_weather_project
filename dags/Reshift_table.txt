@@ -1,0 +1,18 @@
+Query:
+CREATE TABLE IF NOT EXISTS NigeriaOpenWeather(
+    CityName VARCHAR(255),
+    CityId INT,
+    Sunrise_local_time TIMESTAMP,
+    Sunset_local_time TIMESTAMP,
+    Time_of_record  TIMESTAMP,
+    Longitude DECIMAL,
+    latitude DECIMAL,
+    Weather_description VARCHAR(255),
+    Wind_speed DECIMAL,
+    Wind_direction NUMERIC,
+    Pressure NUMERIC,
+    Humidity NUMERIC,
+    Temperature DECIMAL,
+    Mininum_temperature DECIMAL,
+    Maximum_temperature DECIMAL
+); 
