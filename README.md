@@ -47,7 +47,7 @@ The processed data can later be used for analytics and visualization tools such 
 ---
 
 ## 🧠 Architecture
-
+![Image description](images/Architecture.png)
 High-level architecture of the pipeline:
 OpenWeather API
 ↓
